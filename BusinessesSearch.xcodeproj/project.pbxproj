@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9711C22027865500007018E8 /* UtilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9711C21F27865500007018E8 /* UtilityView.swift */; };
+		9711C222278675E8007018E8 /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9711C221278675E8007018E8 /* UtilityExtensions.swift */; };
+		9711C25F2786B07A007018E8 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9711C25E2786B07A007018E8 /* PagerView.swift */; };
+		9711C2612786B145007018E8 /* BusinessPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9711C2602786B145007018E8 /* BusinessPreview.swift */; };
+		9711F3132782CABA00F7C485 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9711F3122782CABA00F7C485 /* LocationService.swift */; };
+		971816BA27840C9600C12ABC /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971816B927840C9600C12ABC /* RatingView.swift */; };
+		976AF7D4278FB2A6005C73DA /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976AF7D3278FB2A6005C73DA /* Reviews.swift */; };
+		976AF7D6278FF1AE005C73DA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976AF7D5278FF1AE005C73DA /* MapView.swift */; };
+		97AF753C2792A2A500B126E4 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AF753B2792A2A500B126E4 /* ReviewView.swift */; };
+		97B5582C2798FABC00FFE4A4 /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B5582B2798FABC00FFE4A4 /* PlaceAnnotationView.swift */; };
+		97B5582E2799369400FFE4A4 /* SuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B5582D2799369400FFE4A4 /* SuggestionView.swift */; };
+		97BCBF5327812567004D809F /* SearchFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BCBF5227812567004D809F /* SearchFieldView.swift */; };
+		97BCBF5527812781004D809F /* SearchPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BCBF5427812781004D809F /* SearchPageView.swift */; };
+		97BCBF582781465E004D809F /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 97BCBF572781465E004D809F /* BottomSheet */; };
+		97BCBF5A278146B1004D809F /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BCBF59278146B1004D809F /* BottomSheetView.swift */; };
+		97BCBF5C27815A8B004D809F /* BusinessListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BCBF5B27815A8B004D809F /* BusinessListView.swift */; };
+		97BCBF5E27816B34004D809F /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BCBF5D27816B34004D809F /* AsyncImageView.swift */; };
+		97BCBF6027816B7A004D809F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BCBF5F27816B7A004D809F /* ImageLoader.swift */; };
+		97C936EB2787C2EC00CED9A1 /* BusinessDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C936EA2787C2EC00CED9A1 /* BusinessDetailView.swift */; };
+		97C95A0627954E23006A9C07 /* BusinessReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C95A0527954E23006A9C07 /* BusinessReviews.swift */; };
+		97C95A0827954EE2006A9C07 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C95A0727954EE2006A9C07 /* Request.swift */; };
+		97CCEAFD279A79A5004A5C20 /* BusinessPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CCEAFC279A79A5004A5C20 /* BusinessPagerView.swift */; };
+		97EDFBBF277E6D6E000DBC62 /* BusinessesSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDFBBE277E6D6E000DBC62 /* BusinessesSearchApp.swift */; };
+		97EDFBC1277E6D6E000DBC62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDFBC0277E6D6E000DBC62 /* ContentView.swift */; };
+		97EDFBC3277E6D6E000DBC62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EDFBC2277E6D6E000DBC62 /* Assets.xcassets */; };
+		97EDFBC6277E6D6E000DBC62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EDFBC5277E6D6E000DBC62 /* Preview Assets.xcassets */; };
+		97EDFBC8277E6D6E000DBC62 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDFBC7277E6D6E000DBC62 /* Persistence.swift */; };
+		97EDFBCB277E6D6E000DBC62 /* BusinessesSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97EDFBC9277E6D6E000DBC62 /* BusinessesSearch.xcdatamodeld */; };
+		97EDFBD5277E6D6F000DBC62 /* BusinessesSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDFBD4277E6D6F000DBC62 /* BusinessesSearchTests.swift */; };
+		97EDFBDF277E6D6F000DBC62 /* BusinessesSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDFBDE277E6D6F000DBC62 /* BusinessesSearchUITests.swift */; };
+		97EDFBE1277E6D6F000DBC62 /* BusinessesSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDFBE0277E6D6F000DBC62 /* BusinessesSearchUITestsLaunchTests.swift */; };
+		97EDFBEF277E6DB5000DBC62 /* Businesses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDFBEE277E6DB5000DBC62 /* Businesses.swift */; };
+		97EDFBF2277E8FE1000DBC62 /* BusinessesSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EDFBF1277E8FE1000DBC62 /* BusinessesSearch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97EDFBD1277E6D6F000DBC62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97EDFBB3277E6D6E000DBC62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97EDFBBA277E6D6E000DBC62;
+			remoteInfo = BusinessesSearch;
+		};
+		97EDFBDB277E6D6F000DBC62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97EDFBB3277E6D6E000DBC62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97EDFBBA277E6D6E000DBC62;
+			remoteInfo = BusinessesSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9711C21F27865500007018E8 /* UtilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityView.swift; sourceTree = "<group>"; };
+		9711C221278675E8007018E8 /* UtilityExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
+		9711C25E2786B07A007018E8 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		9711C2602786B145007018E8 /* BusinessPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessPreview.swift; sourceTree = "<group>"; };
+		9711F3122782CABA00F7C485 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		971816B927840C9600C12ABC /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		976AF7D3278FB2A6005C73DA /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		976AF7D5278FF1AE005C73DA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		97AF753B2792A2A500B126E4 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		97B5582B2798FABC00FFE4A4 /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
+		97B5582D2799369400FFE4A4 /* SuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionView.swift; sourceTree = "<group>"; };
+		97BCBF5227812567004D809F /* SearchFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldView.swift; sourceTree = "<group>"; };
+		97BCBF5427812781004D809F /* SearchPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageView.swift; sourceTree = "<group>"; };
+		97BCBF59278146B1004D809F /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		97BCBF5B27815A8B004D809F /* BusinessListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessListView.swift; sourceTree = "<group>"; };
+		97BCBF5D27816B34004D809F /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		97BCBF5F27816B7A004D809F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		97C936EA2787C2EC00CED9A1 /* BusinessDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailView.swift; sourceTree = "<group>"; };
+		97C95A0527954E23006A9C07 /* BusinessReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessReviews.swift; sourceTree = "<group>"; };
+		97C95A0727954EE2006A9C07 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		97CCEAFC279A79A5004A5C20 /* BusinessPagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessPagerView.swift; sourceTree = "<group>"; };
+		97EDFBBB277E6D6E000DBC62 /* BusinessesSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessesSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EDFBBE277E6D6E000DBC62 /* BusinessesSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesSearchApp.swift; sourceTree = "<group>"; };
+		97EDFBC0277E6D6E000DBC62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97EDFBC2277E6D6E000DBC62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97EDFBC5277E6D6E000DBC62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97EDFBC7277E6D6E000DBC62 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		97EDFBCA277E6D6E000DBC62 /* BusinessesSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusinessesSearch.xcdatamodel; sourceTree = "<group>"; };
+		97EDFBD0277E6D6F000DBC62 /* BusinessesSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessesSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EDFBD4277E6D6F000DBC62 /* BusinessesSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesSearchTests.swift; sourceTree = "<group>"; };
+		97EDFBDA277E6D6F000DBC62 /* BusinessesSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessesSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EDFBDE277E6D6F000DBC62 /* BusinessesSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesSearchUITests.swift; sourceTree = "<group>"; };
+		97EDFBE0277E6D6F000DBC62 /* BusinessesSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		97EDFBEE277E6DB5000DBC62 /* Businesses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Businesses.swift; sourceTree = "<group>"; };
+		97EDFBF1277E8FE1000DBC62 /* BusinessesSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesSearch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97EDFBB8277E6D6E000DBC62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97BCBF582781465E004D809F /* BottomSheet in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EDFBCD277E6D6F000DBC62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EDFBD7277E6D6F000DBC62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97EDFBB2277E6D6E000DBC62 = {
+			isa = PBXGroup;
+			children = (
+				97EDFBBD277E6D6E000DBC62 /* BusinessesSearch */,
+				97EDFBD3277E6D6F000DBC62 /* BusinessesSearchTests */,
+				97EDFBDD277E6D6F000DBC62 /* BusinessesSearchUITests */,
+				97EDFBBC277E6D6E000DBC62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97EDFBBC277E6D6E000DBC62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97EDFBBB277E6D6E000DBC62 /* BusinessesSearch.app */,
+				97EDFBD0277E6D6F000DBC62 /* BusinessesSearchTests.xctest */,
+				97EDFBDA277E6D6F000DBC62 /* BusinessesSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97EDFBBD277E6D6E000DBC62 /* BusinessesSearch */ = {
+			isa = PBXGroup;
+			children = (
+				97EDFC3027811668000DBC62 /* View */,
+				97EDFBF0277E8FCA000DBC62 /* ViewModel */,
+				97EDFBED277E6D92000DBC62 /* Model */,
+				97EDFBBE277E6D6E000DBC62 /* BusinessesSearchApp.swift */,
+				97EDFBC2277E6D6E000DBC62 /* Assets.xcassets */,
+				97EDFBC7277E6D6E000DBC62 /* Persistence.swift */,
+				97EDFBC9277E6D6E000DBC62 /* BusinessesSearch.xcdatamodeld */,
+				97EDFBC4277E6D6E000DBC62 /* Preview Content */,
+			);
+			path = BusinessesSearch;
+			sourceTree = "<group>";
+		};
+		97EDFBC4277E6D6E000DBC62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97EDFBC5277E6D6E000DBC62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97EDFBD3277E6D6F000DBC62 /* BusinessesSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				97EDFBD4277E6D6F000DBC62 /* BusinessesSearchTests.swift */,
+			);
+			path = BusinessesSearchTests;
+			sourceTree = "<group>";
+		};
+		97EDFBDD277E6D6F000DBC62 /* BusinessesSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97EDFBDE277E6D6F000DBC62 /* BusinessesSearchUITests.swift */,
+				97EDFBE0277E6D6F000DBC62 /* BusinessesSearchUITestsLaunchTests.swift */,
+			);
+			path = BusinessesSearchUITests;
+			sourceTree = "<group>";
+		};
+		97EDFBED277E6D92000DBC62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97EDFBEE277E6DB5000DBC62 /* Businesses.swift */,
+				9711F3122782CABA00F7C485 /* LocationService.swift */,
+				9711C221278675E8007018E8 /* UtilityExtensions.swift */,
+				976AF7D3278FB2A6005C73DA /* Reviews.swift */,
+				97C95A0727954EE2006A9C07 /* Request.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97EDFBF0277E8FCA000DBC62 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				97EDFBF1277E8FE1000DBC62 /* BusinessesSearch.swift */,
+				97BCBF5F27816B7A004D809F /* ImageLoader.swift */,
+				976AF7D5278FF1AE005C73DA /* MapView.swift */,
+				97C95A0527954E23006A9C07 /* BusinessReviews.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		97EDFC3027811668000DBC62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97EDFBC0277E6D6E000DBC62 /* ContentView.swift */,
+				97B5582D2799369400FFE4A4 /* SuggestionView.swift */,
+				97BCBF5227812567004D809F /* SearchFieldView.swift */,
+				97BCBF5427812781004D809F /* SearchPageView.swift */,
+				97BCBF59278146B1004D809F /* BottomSheetView.swift */,
+				97BCBF5B27815A8B004D809F /* BusinessListView.swift */,
+				97BCBF5D27816B34004D809F /* AsyncImageView.swift */,
+				971816B927840C9600C12ABC /* RatingView.swift */,
+				9711C21F27865500007018E8 /* UtilityView.swift */,
+				9711C25E2786B07A007018E8 /* PagerView.swift */,
+				9711C2602786B145007018E8 /* BusinessPreview.swift */,
+				97C936EA2787C2EC00CED9A1 /* BusinessDetailView.swift */,
+				97AF753B2792A2A500B126E4 /* ReviewView.swift */,
+				97B5582B2798FABC00FFE4A4 /* PlaceAnnotationView.swift */,
+				97CCEAFC279A79A5004A5C20 /* BusinessPagerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97EDFBBA277E6D6E000DBC62 /* BusinessesSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EDFBE4277E6D6F000DBC62 /* Build configuration list for PBXNativeTarget "BusinessesSearch" */;
+			buildPhases = (
+				97EDFBB7277E6D6E000DBC62 /* Sources */,
+				97EDFBB8277E6D6E000DBC62 /* Frameworks */,
+				97EDFBB9277E6D6E000DBC62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusinessesSearch;
+			packageProductDependencies = (
+				97BCBF572781465E004D809F /* BottomSheet */,
+			);
+			productName = BusinessesSearch;
+			productReference = 97EDFBBB277E6D6E000DBC62 /* BusinessesSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97EDFBCF277E6D6F000DBC62 /* BusinessesSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EDFBE7277E6D6F000DBC62 /* Build configuration list for PBXNativeTarget "BusinessesSearchTests" */;
+			buildPhases = (
+				97EDFBCC277E6D6F000DBC62 /* Sources */,
+				97EDFBCD277E6D6F000DBC62 /* Frameworks */,
+				97EDFBCE277E6D6F000DBC62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EDFBD2277E6D6F000DBC62 /* PBXTargetDependency */,
+			);
+			name = BusinessesSearchTests;
+			productName = BusinessesSearchTests;
+			productReference = 97EDFBD0277E6D6F000DBC62 /* BusinessesSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97EDFBD9277E6D6F000DBC62 /* BusinessesSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EDFBEA277E6D6F000DBC62 /* Build configuration list for PBXNativeTarget "BusinessesSearchUITests" */;
+			buildPhases = (
+				97EDFBD6277E6D6F000DBC62 /* Sources */,
+				97EDFBD7277E6D6F000DBC62 /* Frameworks */,
+				97EDFBD8277E6D6F000DBC62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EDFBDC277E6D6F000DBC62 /* PBXTargetDependency */,
+			);
+			name = BusinessesSearchUITests;
+			productName = BusinessesSearchUITests;
+			productReference = 97EDFBDA277E6D6F000DBC62 /* BusinessesSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97EDFBB3277E6D6E000DBC62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					97EDFBBA277E6D6E000DBC62 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					97EDFBCF277E6D6F000DBC62 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 97EDFBBA277E6D6E000DBC62;
+					};
+					97EDFBD9277E6D6F000DBC62 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 97EDFBBA277E6D6E000DBC62;
+					};
+				};
+			};
+			buildConfigurationList = 97EDFBB6277E6D6E000DBC62 /* Build configuration list for PBXProject "BusinessesSearch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97EDFBB2277E6D6E000DBC62;
+			packageReferences = (
+				97BCBF562781465E004D809F /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
+			productRefGroup = 97EDFBBC277E6D6E000DBC62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97EDFBBA277E6D6E000DBC62 /* BusinessesSearch */,
+				97EDFBCF277E6D6F000DBC62 /* BusinessesSearchTests */,
+				97EDFBD9277E6D6F000DBC62 /* BusinessesSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97EDFBB9277E6D6E000DBC62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EDFBC6277E6D6E000DBC62 /* Preview Assets.xcassets in Resources */,
+				97EDFBC3277E6D6E000DBC62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EDFBCE277E6D6F000DBC62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EDFBD8277E6D6F000DBC62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97EDFBB7277E6D6E000DBC62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EDFBC8277E6D6E000DBC62 /* Persistence.swift in Sources */,
+				97C95A0827954EE2006A9C07 /* Request.swift in Sources */,
+				976AF7D4278FB2A6005C73DA /* Reviews.swift in Sources */,
+				97B5582C2798FABC00FFE4A4 /* PlaceAnnotationView.swift in Sources */,
+				97EDFBC1277E6D6E000DBC62 /* ContentView.swift in Sources */,
+				97BCBF6027816B7A004D809F /* ImageLoader.swift in Sources */,
+				97BCBF5C27815A8B004D809F /* BusinessListView.swift in Sources */,
+				97EDFBBF277E6D6E000DBC62 /* BusinessesSearchApp.swift in Sources */,
+				97EDFBEF277E6DB5000DBC62 /* Businesses.swift in Sources */,
+				976AF7D6278FF1AE005C73DA /* MapView.swift in Sources */,
+				97AF753C2792A2A500B126E4 /* ReviewView.swift in Sources */,
+				97CCEAFD279A79A5004A5C20 /* BusinessPagerView.swift in Sources */,
+				9711C222278675E8007018E8 /* UtilityExtensions.swift in Sources */,
+				97BCBF5E27816B34004D809F /* AsyncImageView.swift in Sources */,
+				9711C22027865500007018E8 /* UtilityView.swift in Sources */,
+				97EDFBCB277E6D6E000DBC62 /* BusinessesSearch.xcdatamodeld in Sources */,
+				97BCBF5327812567004D809F /* SearchFieldView.swift in Sources */,
+				9711F3132782CABA00F7C485 /* LocationService.swift in Sources */,
+				97BCBF5527812781004D809F /* SearchPageView.swift in Sources */,
+				97BCBF5A278146B1004D809F /* BottomSheetView.swift in Sources */,
+				97EDFBF2277E8FE1000DBC62 /* BusinessesSearch.swift in Sources */,
+				97C95A0627954E23006A9C07 /* BusinessReviews.swift in Sources */,
+				9711C25F2786B07A007018E8 /* PagerView.swift in Sources */,
+				9711C2612786B145007018E8 /* BusinessPreview.swift in Sources */,
+				97C936EB2787C2EC00CED9A1 /* BusinessDetailView.swift in Sources */,
+				971816BA27840C9600C12ABC /* RatingView.swift in Sources */,
+				97B5582E2799369400FFE4A4 /* SuggestionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EDFBCC277E6D6F000DBC62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EDFBD5277E6D6F000DBC62 /* BusinessesSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EDFBD6277E6D6F000DBC62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EDFBE1277E6D6F000DBC62 /* BusinessesSearchUITestsLaunchTests.swift in Sources */,
+				97EDFBDF277E6D6F000DBC62 /* BusinessesSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97EDFBD2277E6D6F000DBC62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97EDFBBA277E6D6E000DBC62 /* BusinessesSearch */;
+			targetProxy = 97EDFBD1277E6D6F000DBC62 /* PBXContainerItemProxy */;
+		};
+		97EDFBDC277E6D6F000DBC62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97EDFBBA277E6D6E000DBC62 /* BusinessesSearch */;
+			targetProxy = 97EDFBDB277E6D6F000DBC62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		97EDFBE2277E6D6F000DBC62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97EDFBE3277E6D6F000DBC62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97EDFBE5277E6D6F000DBC62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BusinessesSearch/Preview Content\"";
+				DEVELOPMENT_TEAM = 5767PV42AY;
+				DRIVERKIT_DEPLOYMENT_TARGET = 21.2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessesSearch/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access to your current location is required to show map";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Access to your current location is required to show map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access to your current location is required to show map";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.BusinessesSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		97EDFBE6277E6D6F000DBC62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BusinessesSearch/Preview Content\"";
+				DEVELOPMENT_TEAM = 5767PV42AY;
+				DRIVERKIT_DEPLOYMENT_TARGET = 21.2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BusinessesSearch/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Access to your current location is required to show map";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Access to your current location is required to show map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access to your current location is required to show map";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.BusinessesSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Release;
+		};
+		97EDFBE8277E6D6F000DBC62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5767PV42AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.BusinessesSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessesSearch.app/BusinessesSearch";
+			};
+			name = Debug;
+		};
+		97EDFBE9277E6D6F000DBC62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5767PV42AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.BusinessesSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessesSearch.app/BusinessesSearch";
+			};
+			name = Release;
+		};
+		97EDFBEB277E6D6F000DBC62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5767PV42AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.BusinessesSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BusinessesSearch;
+			};
+			name = Debug;
+		};
+		97EDFBEC277E6D6F000DBC62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5767PV42AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.BusinessesSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BusinessesSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97EDFBB6277E6D6E000DBC62 /* Build configuration list for PBXProject "BusinessesSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EDFBE2277E6D6F000DBC62 /* Debug */,
+				97EDFBE3277E6D6F000DBC62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EDFBE4277E6D6F000DBC62 /* Build configuration list for PBXNativeTarget "BusinessesSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EDFBE5277E6D6F000DBC62 /* Debug */,
+				97EDFBE6277E6D6F000DBC62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EDFBE7277E6D6F000DBC62 /* Build configuration list for PBXNativeTarget "BusinessesSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EDFBE8277E6D6F000DBC62 /* Debug */,
+				97EDFBE9277E6D6F000DBC62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EDFBEA277E6D6F000DBC62 /* Build configuration list for PBXNativeTarget "BusinessesSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EDFBEB277E6D6F000DBC62 /* Debug */,
+				97EDFBEC277E6D6F000DBC62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		97BCBF562781465E004D809F /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LucasMucGH/BottomSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		97BCBF572781465E004D809F /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97BCBF562781465E004D809F /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		97EDFBC9277E6D6E000DBC62 /* BusinessesSearch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97EDFBCA277E6D6E000DBC62 /* BusinessesSearch.xcdatamodel */,
+			);
+			currentVersion = 97EDFBCA277E6D6E000DBC62 /* BusinessesSearch.xcdatamodel */;
+			path = BusinessesSearch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 97EDFBB3277E6D6E000DBC62 /* Project object */;
+}
