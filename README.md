@@ -8,6 +8,8 @@ It shows distance, drive time and direction from user location and business loca
 It automatically save keyword, location, and seleted business that user enters or selects
 
 # In-app images
+<img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/SimulatorScreenShot.png" width="250" height="550">
+
 <img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/SimulatorScreenShot1.png" width="250" height="550">
 
 <img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/SimulatorScreenShot2.png" width="250" height="550">
