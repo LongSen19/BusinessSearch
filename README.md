@@ -1,5 +1,5 @@
 # Business Search - IOS application
-This is my personal project. It is business searching application using Yelp API. It's IOS application interated with SwfitUI, Combine, CoreLocation, Mapkit, animation and transition. It allows user enter keyword and location to seach for businesses
+This is my personal project. It is business searching application using Yelp API. It's IOS application integrated with SwfitUI, Combine, CoreLocation, Mapkit, animation and transition. It allows user enter keyword and location to seach for businesses
 
 # Key Features
 It shows business location in map.
