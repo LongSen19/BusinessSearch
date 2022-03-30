@@ -84,7 +84,6 @@ extension LocationService: CLLocationManagerDelegate {
 }
 
 
-
 enum LocationError: Error {
     case unauthorized
     case unableToDetermineLocation

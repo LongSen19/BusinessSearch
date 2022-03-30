@@ -17,7 +17,6 @@ class BusinessReviews: ObservableObject {
         let request = Request.createRequest(with: url)
         autosaveCancellable = URLSession.shared.dataTaskPublisher(for: request)
             .tryMap { output in
-                print("output, ", output)
                 guard let response = output.response as? HTTPURLResponse, response.statusCode == 200 else {
                     throw HTTPError.statusCode
                 }
