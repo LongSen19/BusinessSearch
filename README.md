@@ -8,15 +8,15 @@ It shows distance, drive time and direction from user location and business loca
 It automatically save keyword, location, and seleted business that user enters or selects.
 
 # In-app images
-<img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/SimulatorScreenShot.png" width="250" height="550">
+<img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/start.gif" width="250" height="550">
 
-<img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/SimulatorScreenShot1.png" width="250" height="550">
+<img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/bottomSheet.gif" width="250" height="550">
 
-<img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/SimulatorScreenShot2.png" width="250" height="550">
+<img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/PagerView1.png" width="250" height="550">
 
-<img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/SimulatorScreenShot3.png" width="250" height="550">
+<img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/PagerView2.png" width="250" height="550">
 
-<img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/SimulatorScreenShot4.png" width="250" height="550">
+<img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/detail.png" width="250" height="550">
 
 # Demo
 Here is a link to the video demonstration: https://www.youtube.com/watch?v=4C2-xE_EzJo&t=27s
