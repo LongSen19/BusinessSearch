@@ -6,14 +6,18 @@
 
 
 # In-app
+Search <br />
 <img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/start.gif" width="250" height="550">
 
+Bottom Sheet <br />
 <img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/bottomSheet.gif" width="250" height="550">
 
+Pager View <br />
 <img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/PagerView1.gif" width="250" height="550">
 
 <img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/PagerView2.gif" width="250" height="550">
 
+Bussiness Detail View <br />
 <img src = "https://github.com/LongSen19/BusinessSearch/blob/main/InAppImages/detail.gif" width="250" height="550">
 
 # Demo
